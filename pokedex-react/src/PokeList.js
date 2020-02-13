@@ -5,7 +5,7 @@ import PokeItem from './PokeItem.js';
 export default class PokeList extends Component {
     
     render() {
-        const pokeNodes = mockPokemon.map(poke => <PokeItem pokeItem={poke} />)
+        const pokeNodes = this.props.pokedex.map(poke => <PokeItem pokeItem={poke} />)
                 
 
 

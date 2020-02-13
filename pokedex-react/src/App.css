@@ -24,6 +24,39 @@ img {
   border-radius: 2rem;
 }
 
+#red-sensor {
+  position: absolute;
+  top: 40px;
+  left: 95px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid whitesmoke;
+  background-color: rgb(131, 18, 18);
+  border-radius: 2rem;
+}
+
+#yellow-sensor {
+  position: absolute;
+  top: 40px;
+  left: 120px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid whitesmoke;
+  background-color: rgb(216, 210, 27);
+  border-radius: 2rem;
+}
+
+#green-sensor {
+  position: absolute;
+  top: 40px;
+  left: 145px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid whitesmoke;
+  background-color: rgb(23, 181, 41);
+  border-radius: 2rem;
+}
+
 #logo-header {
   border: 5px dotted whitesmoke;
   max-width: 50%;
@@ -45,6 +78,7 @@ img {
   border: 2px solid whitesmoke;
   display: inline-block;
   font-family: monospace;
+  border-radius: 1rem;
 }
 
 .poke-item p {
