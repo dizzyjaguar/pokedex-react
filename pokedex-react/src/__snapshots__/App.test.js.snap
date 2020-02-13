@@ -8,6 +8,15 @@ exports[`renders App.js correctly 1`] = `
     <div
       id="blue-sensor"
     />
+    <div
+      id="red-sensor"
+    />
+    <div
+      id="yellow-sensor"
+    />
+    <div
+      id="green-sensor"
+    />
     <h1
       id="logo-header"
     >
