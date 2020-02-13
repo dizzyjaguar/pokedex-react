@@ -44,5 +44,16 @@ img {
   margin: 10px;
   border: 2px solid whitesmoke;
   display: inline-block;
+  font-family: monospace;
+}
+
+.poke-item p {
+  font-size: larger;
+}
+
+.poke-name {
+  background-color: rgb(255, 217, 0);
+  font-family: monospace;
+  font-size: xx-large;
 }
 
