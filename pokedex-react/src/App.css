@@ -9,10 +9,30 @@ body {
   border: 20px solid rgb(250, 250, 248);
 }
 
+#blue-sensor {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid whitesmoke;
+  background-color: lightseagreen;
+  border-radius: 2rem;
+}
+
 #logo-header {
   border: 5px dotted whitesmoke;
   max-width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+#poke-list-div {
+  border: 5px solid whitesmoke;
+  
+}
+
+#poke-list {
+
 }
 
