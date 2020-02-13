@@ -3,6 +3,10 @@ body {
   background-color: maroon;
 }
 
+img {
+  max-width: 300px;
+}
+
 #header {
   text-align: center;
   color: rgb(255, 217, 0);
@@ -29,10 +33,16 @@ body {
 
 #poke-list-div {
   border: 5px solid whitesmoke;
-  
 }
 
 #poke-list {
+  list-style-type: none;
+  text-align: center;
+}
 
+.poke-item {
+  margin: 10px;
+  border: 2px solid whitesmoke;
+  display: inline-block;
 }
 

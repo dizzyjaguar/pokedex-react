@@ -5,9 +5,7 @@ export default class PokeItem extends Component {
       return (
         <li className='poke-item'>
             <h2>{this.props.pokeItem.pokemon}</h2>
-            <img alt='' src={this.props.pokeItem.url_image}></img>
-
-            
+            <img alt='' src={this.props.pokeItem.url_image}></img>     
         </li>
       );
     }
