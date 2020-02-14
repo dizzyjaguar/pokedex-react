@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App.js correctly 1`] = `
+<div
+  id="poke-list-div"
+>
+  <ul
+    id="poke-list"
+  />
+</div>
+`;

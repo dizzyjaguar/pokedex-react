@@ -1,0 +1,124 @@
+
+body {
+  background-color: maroon;
+}
+
+img {
+  max-width: 300px;
+}
+
+button {
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
+  background-color: rgb(23, 181, 41);
+  width: 100px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: maroon;
+  cursor: pointer;
+}
+
+#header {
+  text-align: center;
+  color: rgb(255, 217, 0);
+  border: 10px solid whitesmoke;
+}
+
+#blue-sensor {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid whitesmoke;
+  background-color: lightseagreen;
+  border-radius: 2rem;
+}
+
+#red-sensor {
+  position: absolute;
+  top: 40px;
+  left: 95px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid whitesmoke;
+  background-color: rgb(131, 18, 18);
+  border-radius: 2rem;
+}
+
+#yellow-sensor {
+  position: absolute;
+  top: 40px;
+  left: 120px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid whitesmoke;
+  background-color: rgb(216, 210, 27);
+  border-radius: 2rem;
+}
+
+#green-sensor {
+  position: absolute;
+  top: 40px;
+  left: 145px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid whitesmoke;
+  background-color: rgb(23, 181, 41);
+  border-radius: 2rem;
+}
+
+#logo-header {
+  border: 5px dotted whitesmoke;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#poke-list-div {
+  border: 10px solid whitesmoke;
+}
+
+#poke-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.poke-item {
+  margin: 10px;
+  border: 2px solid whitesmoke;
+  display: inline-block;
+  font-family: monospace;
+  border-radius: 1rem;
+}
+
+.poke-item p {
+  font-size: larger;
+}
+
+.poke-name {
+  background-color: rgb(255, 217, 0);
+  font-family: monospace;
+  font-size: xx-large;
+}
+
+.search-div {
+  border: 10px solid whitesmoke;
+  text-align: center;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 20px;
+  color: lightseagreen;
+  font-weight: 900;
+}
+
+.pagination-div {
+  text-align: center;
+  padding: 5px;
+  font-family: monospace;
+  font-size: larger;
+  color: rgb(255, 217, 0);
+
+}

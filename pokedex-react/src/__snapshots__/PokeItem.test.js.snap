@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App.js correctly 1`] = `
+<li
+  className="poke-item"
+>
+  <h2
+    className="poke-name"
+  >
+    
+  </h2>
+  <img
+    alt=""
+    src=""
+  />
+  <p>
+     HP: 
+    
+     
+  </p>
+  <p>
+     Element: 
+    
+     
+  </p>
+</li>
+`;
