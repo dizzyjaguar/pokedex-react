@@ -48,9 +48,9 @@ export default class App extends Component {
 
       <Header></Header>
       <SearchOptions></SearchOptions>
+      <Pagination totalPokemon={this.state.totalPokemon} totalPage={this.state.totalPage} />
       
       <PokeList pokedex={this.state.pokedex}></PokeList>
-      <Pagination totalPokemon={this.state.totalPokemon} totalPage={this.state.totalPage} />
       </div>
     );
   }

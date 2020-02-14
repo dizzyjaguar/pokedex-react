@@ -113,3 +113,12 @@ button:hover {
   color: lightseagreen;
   font-weight: 900;
 }
+
+.pagination-div {
+  text-align: center;
+  padding: 5px;
+  font-family: monospace;
+  font-size: larger;
+  color: rgb(255, 217, 0);
+
+}
