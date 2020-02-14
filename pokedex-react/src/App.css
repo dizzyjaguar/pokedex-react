@@ -7,10 +7,23 @@ img {
   max-width: 300px;
 }
 
+button {
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
+  background-color: rgb(23, 181, 41);
+  width: 100px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: maroon;
+  cursor: pointer;
+}
+
 #header {
   text-align: center;
   color: rgb(255, 217, 0);
-  border: 20px solid rgb(250, 250, 248);
+  border: 10px solid whitesmoke;
 }
 
 #blue-sensor {
@@ -91,3 +104,12 @@ img {
   font-size: xx-large;
 }
 
+.search-div {
+  border: 10px solid whitesmoke;
+  text-align: center;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 20px;
+  color: lightseagreen;
+  font-weight: 900;
+}
